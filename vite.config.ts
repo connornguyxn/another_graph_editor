@@ -18,8 +18,8 @@ export default defineConfig({
         theme_color: '#ffffff',
         background_color: '#ffffff',
         display: 'standalone',
-        scope: '/',
-        start_url: '/',
+        scope: '/another_graph_editor/',
+        start_url: '/another_graph_editor/',
         icons: [
           {
             src: 'icons/icon-192x192.png',
@@ -35,5 +35,5 @@ export default defineConfig({
       }
     })
   ],
-  base: "/",
+  base: "/another_graph_editor/",
 });
